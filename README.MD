@@ -21,4 +21,15 @@ Application uses old version of Spring Framework. This issue is additionally rel
 <li> You can see from the list that application uses spring framework 1.4.2 </li>
 
 <H3> Fix: </H3>
+
+<H2> A10: Insufficien Logging & Monitoring </H2>
+
+Insufficien logging and monitoring are one of the key reasons that attackers can achienve their goals without being detected. According to owasp list it took in average 196 days before a breach was identifyed.
+
+<H3> Steps to reproduce: </H3>
+<li> This application does not have any logging or monitoring </li>
+
+<H3> Fix: </H3>
+<li> Add/active logging and monitoring </li>
+
 Use latest version of Spring framework
