@@ -5,11 +5,11 @@
 Typically this issue is releted to users access control, user has access to intended areas. Here users can access to H2 database via web browser.
 
 <H3> Steps to reproduce: </H3>
-Run code in Netbeans
-Open browser and go to page http://localhost:8080/h2-console
+<li> Run code in Netbeans </li>
+<li> Open browser and go to page http://localhost:8080/h2-console </li>
 
 <H3> Fix: </H3>
-Changes security configuration
+Changes security configuration.
 For example: we could only allow people with admin role to use H2 console: 
 .antMatchers("/h2-console/*").hasRole("ADMIN")
 
