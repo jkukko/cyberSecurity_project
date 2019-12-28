@@ -1,10 +1,10 @@
 <H1> Cyber Security Base - Project 1 </H1>
 
-<H2> Broken Access Control </H2>
+<H2> A6: Broken Access Control </H2>
 
 Typically this issue is releted to users access control, user has access to intended areas. Here users can access to H2 database via web browser.
 
-<H3 Steps to reproduce: </H3>
+<H3> Steps to reproduce: </H3>
 Run code in Netbeans
 Open browser and go to page http://localhost:8080/h2-console
 
