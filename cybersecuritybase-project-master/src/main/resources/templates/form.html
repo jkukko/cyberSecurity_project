@@ -6,10 +6,13 @@
     <body>
 
         <h1>Sign up to the event using this form</h1>
+        
+        <li>Please provide credit card number for payment</li>
 
         <form action="#" th:action="@{/form}" method="POST">
             <p><label for="name">Name</label>: <input type="text" name="name" id="name"/></p>
             <p><label for="address">Address</label>: <input type="text" name="address" id="address"/></p>
+            <p><label for="credidCardNumber">Credit Card Number</label>: <input type="long" name="credidCardNumber" id="creditCardNumber"/></p>
             <p><input type="submit" value="Submit" /></p>
         </form>
 

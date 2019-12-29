@@ -8,15 +8,25 @@ public class Signup extends AbstractPersistable<Long> {
 
     private String name;
     private String address;
+    private long creditCardNumber;
 
     public Signup() {
         super();
     }
 
-    public Signup(String name, String address) {
+    public Signup(String name, String address, long creditCardNumber) {
         this();
         this.name = name;
         this.address = address;
+        this.creditCardNumber = creditCardNumber;
+    }
+
+    public void setCreditCardNumber(long creditCardNumber) {
+        this.creditCardNumber = creditCardNumber;
+    }
+
+    public long getCreditCardNumber() {
+        return creditCardNumber;
     }
 
     public String getName() {

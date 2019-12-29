@@ -25,8 +25,11 @@ public class SignupController {
     }
 
     @RequestMapping(value = "/form", method = RequestMethod.POST)
-    public String submitForm(@RequestParam String name, @RequestParam String address) {
-        signupRepository.save(new Signup(name, address));
+    public String submitForm(@RequestParam String name, @RequestParam String address, @RequestParam long credidCardNumber) {
+        signupRepository.save(new Signup(name, address, credidCardNumber));
+        
+        
+        
         return "done";
     }
 
