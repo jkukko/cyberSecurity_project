@@ -1,7 +1,8 @@
 <H1> Cyber Security Base - Project 1 </H1>
 Project for the Cyber security base -course. Contains intentional security flaws.
+To check these flaws, download code from github. Test user is 'Ted' and password is 'Test'
 
-<H3> Sensitive Data Exposure </H3>
+<H3> A3: Sensitive Data Exposure </H3>
 In a case of sensitive data exposure, attacker might not directly attack the systme. 
 They might steal keys or execute man-in-the-middle attack or somehow steal data from database. 
 The key here is that data is stored not in protect way. 
